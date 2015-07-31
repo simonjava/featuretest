@@ -5,7 +5,7 @@ if [ $# -ne 1 ]; then
   exit
 fi
 
-git checkout ./src/main/java/com/mi/vtalk/business/utils/Constants.java
+git checkout ./src/main/java/com/csm/feature/config/Constants.java
 
 #pushd ./
 python gen_build_settings.py $1
@@ -22,7 +22,6 @@ if [ ! -d "ship" ]; then
 fi
 
 cp build/outputs/apk/app-debug.apk ship/mivTalk-$1-debug.apk
-cp build/outputs/apk/app-release.apk ship/mivtalk-$1-release.apk
-git checkout ./src/main/java/com/mi/vtalk/business/utils/Constants.java
+git checkout ./src/main/java/com/csm/feature/config/Constants.java
 git checkout ./src/main/assets/channelId
 

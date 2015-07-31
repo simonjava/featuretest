@@ -2,7 +2,7 @@
 
 import sys
 
-f = open('./src/main/java/com/mi/vtalk/business/utils/Constants.java', 'r')
+f = open('./src/main/java/com/csm/feature/config/Constants.java', 'r')
 
 s = ''
 
@@ -12,5 +12,5 @@ for line in f:
 
 f.close()
 
-f = open('./src/main/java/com/mi/vtalk/business/utils/Constants.java', 'w')
+f = open('./src/main/java/com/csm/feature/config/Constants.java', 'w')
 f.write(s)
