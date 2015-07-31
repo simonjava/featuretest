@@ -1,0 +1,14 @@
+*.iml
+*.iws
+*.ipr
+.idea/
+.gradle/
+ship/
+local.properties
+build/
+*~
+*.swp
+**/.DS_Store
+.DS_Store
+*.bin
+gradle.properties
